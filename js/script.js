@@ -25,6 +25,5 @@ btn.addEventListener('click', function(){
     base = kmPercorso * km;
     
   
-    
   })
   
