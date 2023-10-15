@@ -11,17 +11,19 @@
     <div class="container">
         <h1 class="text-center">Biglietteria</h1>
         <div class="row center">
+            <input type="text" class="py-10" name='nome' id="nome" placeholder="inserisci il tuo nome e cognome">
             <input type="number" class="py-10" name='km' id="kilometri" placeholder="quanti km vuoi percorrere?">
-            <select name="" id="selezione">
-              <option value="minorenni">minorenni</option>
-              
+            
+            <select name="" id="selezione" placeholder="selezione una fascia di età">
+              <option value="minorenni">meno di 18 anni</option>
+              <option value="mezzo">tra i 18 e i 64</option>
               <option value="senior">over 65</option>
             </select>
             
             <button  class="py-10" id="btn">Calcola il totale</button>
         </div>
-        <div class="totale">
-          <p class="text-center">Totale</p>
+        <div id="totale">
+          <p>Totale</p>
         </div> 
         
         <img  src="img/spirited.jpg" alt=""> 

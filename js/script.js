@@ -1,14 +1,30 @@
 
-
+// prendo le classi dell'HTML
 const kilometri = document.getElementById('kilometri');
-console.log(kilometri);
+
 
 const selezione = document.getElementById('selezione');
-console.log(selezione);
+
 
 const btn = document.getElementById('btn');
+
 const km = 0.21;
 
-const totale = document.querySelector('.totale');
+const totale = document.getElementById('totale');
 
 
+//inizio funzione + comando al bottone
+btn.addEventListener('click', function(){
+    const kmPercorso = kilometri.value;
+    
+  
+    const age = selezione.value; 
+  
+    let sconto, base, prezzoSconto, prezzo;
+  
+    base = kmPercorso * km;
+    
+  
+    
+  })
+  
